@@ -17,7 +17,7 @@ namespace e16
         private void test()
         {
             Employee employee = new Employee();
-            employee.EmployeeType.Replace("", "");
+            // employee.EmployeeType.Replace("", "");
         }
         
     }
