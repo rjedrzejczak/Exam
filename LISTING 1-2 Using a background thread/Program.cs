@@ -7,12 +7,15 @@ namespace LISTING_1_2_Using_a_background_thread
     {
         public static void Main()
         {
-            Thread t = new Thread(ThreadMethod);
-            t.IsBackground = true;
+            var t = new Thread(ThreadMethod)
+            {
+                IsBackground = true
+            };
+            
             t.Start();
         }
-        
-        public static void ThreadMethod()
+
+        private static void ThreadMethod()
         {
             for (int i = 0; i < 10; i++)
             {

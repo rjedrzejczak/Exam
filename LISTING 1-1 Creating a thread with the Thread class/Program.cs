@@ -16,8 +16,8 @@ namespace LISTING_1_1_Creating_a_thread_with_the_Thread_class
             }
             t.Join();
         }
-        
-        public static void ThreadMethod()
+
+        private static void ThreadMethod()
         {
             for (int i = 0; i < 10; i++)
             {
