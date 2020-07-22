@@ -1,20 +1,15 @@
 ﻿using System;
 using System.Threading;
 
-namespace LISTING_1_1_Creating_a_thread_with_the_Thread_class
+namespace LISTING_1_2_Using_a_background_thread
 {
     class Program
     {
         public static void Main()
         {
-            var t = new Thread(ThreadMethod);
+            Thread t = new Thread(ThreadMethod);
+            t.IsBackground = true;
             t.Start();
-            for (int i = 0; i < 4; i++)
-            {
-                Console.WriteLine("Main thread: Do some work.");
-                Thread.Sleep(0);
-            }
-            t.Join();
         }
         
         public static void ThreadMethod()
@@ -22,7 +17,7 @@ namespace LISTING_1_1_Creating_a_thread_with_the_Thread_class
             for (int i = 0; i < 10; i++)
             {
                 Console.WriteLine("ThreadProc: {0}", i);
-                Thread.Sleep(0);
+                Thread.Sleep(1000);
             }
         }
     }
