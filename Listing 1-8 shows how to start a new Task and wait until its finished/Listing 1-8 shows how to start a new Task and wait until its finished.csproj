@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>Listing_1_8_shows_how_to_start_a_new_Task_and_wait_until_its_finished</RootNamespace>
+    </PropertyGroup>
+
+</Project>

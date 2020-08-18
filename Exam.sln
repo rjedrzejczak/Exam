@@ -32,6 +32,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LISTING 1-5 Using the Threa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LISTING 1-6 Using ThreadLocal T", "LISTING 1-6 Using ThreadLocal T\LISTING 1-6 Using ThreadLocal T.csproj", "{A2D6A72F-8253-4332-B73F-A5AF5CB80172}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LISTING 1-7 Queuing some work to the thread pool", "LISTING 1-7 Queuing some work to the thread pool\LISTING 1-7 Queuing some work to the thread pool.csproj", "{7EC39EF5-218C-44B7-BCE6-35942CCE6B1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Listing 1-8 shows how to start a new Task and wait until its finished", "Listing 1-8 shows how to start a new Task and wait until its finished\Listing 1-8 shows how to start a new Task and wait until its finished.csproj", "{90CE46E2-C4CF-4EF9-B945-651923ED1229}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Listing 1-9 shows how this works", "Listing 1-9 shows how this works\Listing 1-9 shows how this works.csproj", "{2EACCA3E-B991-4859-A9BC-02F8575583A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LISTING 2 1-10 Adding a continuation", "LISTING 2 1-10 Adding a continuation\LISTING 2 1-10 Adding a continuation.csproj", "{BC08C5A9-BCC3-42AC-8E44-2347ACA44D05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LISTING 2 1-11 Scheduling different continuation tasks", "LISTING 2 1-11 Scheduling different continuation tasks\LISTING 2 1-11 Scheduling different continuation tasks.csproj", "{8D6AA02E-FF39-40B5-AD29-1FD4B0A2CE54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LISTING 2 1-12 Attaching child tasks to a parent task", "LISTING 2 1-12 Attaching child tasks to a parent task\LISTING 2 1-12 Attaching child tasks to a parent task.csproj", "{F86603F2-5DD8-4AAC-9980-92EA7C161521}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -86,6 +98,30 @@ Global
 		{A2D6A72F-8253-4332-B73F-A5AF5CB80172}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2D6A72F-8253-4332-B73F-A5AF5CB80172}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2D6A72F-8253-4332-B73F-A5AF5CB80172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EC39EF5-218C-44B7-BCE6-35942CCE6B1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EC39EF5-218C-44B7-BCE6-35942CCE6B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EC39EF5-218C-44B7-BCE6-35942CCE6B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EC39EF5-218C-44B7-BCE6-35942CCE6B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90CE46E2-C4CF-4EF9-B945-651923ED1229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90CE46E2-C4CF-4EF9-B945-651923ED1229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90CE46E2-C4CF-4EF9-B945-651923ED1229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90CE46E2-C4CF-4EF9-B945-651923ED1229}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EACCA3E-B991-4859-A9BC-02F8575583A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EACCA3E-B991-4859-A9BC-02F8575583A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EACCA3E-B991-4859-A9BC-02F8575583A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EACCA3E-B991-4859-A9BC-02F8575583A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC08C5A9-BCC3-42AC-8E44-2347ACA44D05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC08C5A9-BCC3-42AC-8E44-2347ACA44D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC08C5A9-BCC3-42AC-8E44-2347ACA44D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC08C5A9-BCC3-42AC-8E44-2347ACA44D05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D6AA02E-FF39-40B5-AD29-1FD4B0A2CE54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D6AA02E-FF39-40B5-AD29-1FD4B0A2CE54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D6AA02E-FF39-40B5-AD29-1FD4B0A2CE54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D6AA02E-FF39-40B5-AD29-1FD4B0A2CE54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F86603F2-5DD8-4AAC-9980-92EA7C161521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F86603F2-5DD8-4AAC-9980-92EA7C161521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F86603F2-5DD8-4AAC-9980-92EA7C161521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F86603F2-5DD8-4AAC-9980-92EA7C161521}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5E7C63EC-9249-49FC-95B8-AA8B3F698CA4} = {1AFC45AD-AD21-4D26-B596-DE096417ADAA}
@@ -102,5 +138,11 @@ Global
 		{CE8D8641-D7EE-45A0-A671-5E909C4D1886} = {CF079302-588E-42D5-B61B-256B69255B69}
 		{6D8EC48B-CA61-4AE9-B001-494B7267C92E} = {CF079302-588E-42D5-B61B-256B69255B69}
 		{A2D6A72F-8253-4332-B73F-A5AF5CB80172} = {CF079302-588E-42D5-B61B-256B69255B69}
+		{7EC39EF5-218C-44B7-BCE6-35942CCE6B1B} = {CF079302-588E-42D5-B61B-256B69255B69}
+		{2EACCA3E-B991-4859-A9BC-02F8575583A3} = {CF079302-588E-42D5-B61B-256B69255B69}
+		{90CE46E2-C4CF-4EF9-B945-651923ED1229} = {CF079302-588E-42D5-B61B-256B69255B69}
+		{BC08C5A9-BCC3-42AC-8E44-2347ACA44D05} = {CF079302-588E-42D5-B61B-256B69255B69}
+		{8D6AA02E-FF39-40B5-AD29-1FD4B0A2CE54} = {CF079302-588E-42D5-B61B-256B69255B69}
+		{F86603F2-5DD8-4AAC-9980-92EA7C161521} = {CF079302-588E-42D5-B61B-256B69255B69}
 	EndGlobalSection
 EndGlobal
